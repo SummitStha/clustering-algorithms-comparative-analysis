@@ -47,7 +47,18 @@ source <virtual_env_name>/bin/activate (Linux and Mac)
 pip install -r requirements.txt
 ```
 
-4. Execute the program
+4. Execute the programs
+- Running the comparative analysis
 ```
 python algorithm_analysis.py
+```
+
+- Running K-Means independently
+```
+python kmeans.py
+```
+
+- Running DBSCAN independently
+```
+python dbscan.py
 ```
